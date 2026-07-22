@@ -1,0 +1,43 @@
+{
+  "name": "lwen-ai-proxy",
+  "version": "1.0.0",
+  "description": "LWEN \u2014 Local Web Engine Nexus. Free AI API proxy for OpenAI, Claude, Gemini, Leonardo, Ideogram, Copilot.",
+  "main": "dist/index.js",
+  "bin": {
+    "lwen": "dist/cli/lwen.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli/lwen.js",
+    "dev": "tsx src/cli/lwen.ts",
+    "start": "node dist/cli/lwen.js"
+  },
+  "keywords": [
+    "ai",
+    "proxy",
+    "oauth",
+    "codex",
+    "openai",
+    "claude",
+    "gemini",
+    "leonardo",
+    "ideogram",
+    "copilot"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
