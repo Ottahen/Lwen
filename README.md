@@ -1,3 +1,5 @@
+<img width="1672" height="941" alt="lwen img" src="https://github.com/user-attachments/assets/9737edae-d884-4daf-a495-c80a1c0c2a15" />
+
 # LWEN — Local Web Engine Nexus
 
 > Better than `openai-oauth`: same free Codex access + 5 more providers.
