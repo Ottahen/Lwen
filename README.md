@@ -4,7 +4,7 @@
 
 > Better than `openai-oauth`: same free Codex access + 5 more providers.
 
-## Quick Start
+## Quick Start..
 
 ```bash
 # 1. Free OpenAI (same as EvanZhouDev)
